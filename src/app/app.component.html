@@ -1,0 +1,40 @@
+<div style="width: 100%; display: flex; flex-direction: row;">
+  <div style="width: 50%; padding: 10px;">
+    <textarea style="width: 100%;" [formControl]="jsonPayload" rows="35"  required>
+    </textarea>
+  </div>
+  <div style="width: 50%; padding: 10px;">
+    <textarea style="width: 100%;" [formControl]="apiSchemaJson" rows="35" required>
+    </textarea>
+  </div>
+</div>
+{
+  "searchValue": "asdasd",
+  "num": 10,
+  "userInfo": {
+    "userName": "asdsad",
+    "userAccount": "asdsad"
+  },
+  "foodList": ["a", "b"],
+  "phoneList": [
+    {
+      "phoneName": "asdasd",
+      "phoneNum": 100
+    }
+  ]
+}
+{
+  searchValue: 'asdasd',
+  num: 10,
+  userInfo: {
+    userName: 'asdsad',
+    userAccount: 'asdsad'
+  },
+  foodList: ['a', 'b'],
+  phoneList: [
+    {
+      phoneName: 'asdasd',
+      phoneNum: 100
+    }
+  ]
+}
